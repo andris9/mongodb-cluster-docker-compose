@@ -13,3 +13,12 @@ The following command runs the following procedures:
 ```
 $ ./init.sh
 ```
+
+Next, edit WildDuck database config with the following options:
+
+```toml
+mongo = "mongodb://127.0.0.1:27117/wildduck"
+gridfs = "attachments"
+users = "users"
+sender = "zonemta"
+```
